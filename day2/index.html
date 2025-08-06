@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <table border="0">
+        <form action="success.html" method="post">
+          <tr>
+            <td><label for="username">USERNAME : </label></td>
+            <td>
+              <input
+                type="text"
+                id="username"
+                placeholder="enter here"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="assword">PASSWORD : </label></td>
+            <td><input type="password" id="assword" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="email">EMAIL : </label></td>
+            <td><input type="text" id="email" required /></td>
+          </tr>
+
+          <tr>
+            <td rowspan="1"><label for="Gender">GENDER :</label></td>
+
+            <td><input type="radio" name="Gender" value="Male" />Male</td>
+            <td><input type="radio" name="Gender" value="Female" />Female</td>
+          </tr>
+
+          <tr>
+            <td><label for="payment">PAYMENT : </label></td>
+            <td>
+              <select>
+                <option>gpay</option>
+                <option>phonepay</option>
+                <option>card</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="phone">PHONE : </label></td>
+            <td><input type="tel" id="phone" placeholder="123-456-7890" /></td>
+          </tr>
+          <tr>
+            <td><label for="date">DATE : </label></td>
+            <td><input type="date" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="checkbox">I agree </label></td>
+            <td><input type="checkbox" id="checkbox" required /></td>
+          </tr>
+          <tr aria-colspan="1">
+            <td colspan="2"><input type="file" required /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <center><button>submit</button></center>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </center>
+  </body>
+</html>
