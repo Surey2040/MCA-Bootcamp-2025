@@ -1,0 +1,147 @@
+body {
+  margin-left: 200px;
+  margin-top: 70px;
+  margin-right: 200px;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 300px;
+}
+h1 {
+  position: relative;
+  left: 4.5px;
+  width: 800px;
+  top: 62px;
+  text-align: center;
+  margin-top: 0;
+  background-color: bisque;
+}
+img {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  bottom: 157px;
+  left: 204.5px;
+}
+
+.ab {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: black;
+}
+
+.bc {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+
+  background-color: blue;
+}
+.cd {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+}
+.de {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: yellow;
+}
+.ef {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-color: green;
+}
+.fg {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+
+  background-color: brown;
+}
+h2 {
+  position: relative;
+  top: 130px;
+  right: 80px;
+}
+
+.two {
+  text-align: center;
+  justify-content: center;
+  padding-top: 29px;
+  width: 809px;
+  height: 35px;
+  position: absolute;
+  top: 359px;
+  right: -69px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 3px;
+}
+
+p {
+  position: relative;
+  top: 55px;
+  right: 10px;
+  bottom: 10px;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+a {
+  position: relative;
+  top: 44px;
+  right: 45px;
+}
+.pag1 {
+  position: relative;
+  left: 90px;
+  bottom: 25px;
+}
+h3 {
+  position: relative;
+  left: 250px;
+  bottom: 160px;
+}
+
+ul {
+  position: relative;
+
+  bottom: 180px;
+  left: 280px;
+  margin-right: 60px;
+}
+
+.ten {
+  margin-right: 20px;
+}
+
+.four {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  right: 415px;
+  top: 60px;
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
