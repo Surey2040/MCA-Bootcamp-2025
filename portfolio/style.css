@@ -1,3 +1,10 @@
+*{
+    font-family:-apple-system, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: fit-content;
     height: auto;
@@ -15,6 +22,8 @@ body{
      font-size: 14px;
     align-items: center;
     display:flex;
+    flex: 1 1 300px;
+    flex-wrap: wrap;    
     height:50px;
     flex-direction: row;
     justify-content: flex-end ;
@@ -35,7 +44,6 @@ bottom: 240px;
 left: 550px;
 font-size: 50px;
 color: white;
-font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -52,7 +60,7 @@ font-family: "Inter Tight", sans-serif;
     position: relative;
     top: -250px;
     left: 550px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .Image{
     width: 300px;
@@ -72,26 +80,25 @@ a:hover{
     filter: drop-shadow(10px 10px 20px);
 }
 .change{
-    font-family: "chewy",cursive;
     color: yellow;
 }
 .skills{
 
-    width: 250px;
+    width: 150px;
     display: flex;
     gap: 50px;
     flex-direction: row;
     position: relative;
-    left: 200px;
+    left: 390px;
     top: -200px;
 
 }
 
 .htmlicon{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -104,10 +111,10 @@ a:hover{
 }
 
 .css{
-       padding-left: 80px;
-    padding-right: 80px;
+       padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -120,10 +127,10 @@ a:hover{
 }
 
 .js{
-       padding-left: 80px;
-    padding-right: 80px;
+       padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -135,10 +142,10 @@ a:hover{
 }
 
 .figma{
-       padding-left: 80px;
-    padding-right: 80px;
+       padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -166,21 +173,21 @@ a:hover{
 }
 
 .learning{
- width: 250px;
+ width: 150px;
     display: flex;
     gap: 50px;
     flex-direction: row;
     position: relative;
-    left: 330px;
+    left: 500px;
     top: -100px;
     
 }
 
 .mango{
-       padding-left: 80px;
-    padding-right: 80px;
+     padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -192,10 +199,10 @@ a:hover{
 }
 
 .sql{
-       padding-left: 80px;
-    padding-right: 80px;
+     padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
@@ -215,10 +222,10 @@ a:hover{
 }
 
 .java{
-       padding-left: 80px;
-    padding-right: 80px;
+        padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
-    padding-bottom: 190px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
 }
