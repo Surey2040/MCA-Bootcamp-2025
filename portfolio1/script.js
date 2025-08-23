@@ -1,7 +1,7 @@
 const text = ["Coder", "Editor", "Designer","Content Creater"]
 
 let index = 0;
-const span = document.querySelector(".change");
+const span = document.querySelector(".multi-text");
 
 
 function changeText(){

@@ -47,6 +47,9 @@ section{
    margin: #858e8d solid;
 }
 
+.multi-text{
+    color: white;
+}
 .logo{
     font-size:3rem;
     color: var(--bg-color);
@@ -86,7 +89,7 @@ section{
 }
 
 .home-img img{
-    width: 30vw;
+    width: 25vw;
     border-radius: 40%;
     margin-top: 50px;
     box-shadow: 0 0 25px var(--main-color);
@@ -94,7 +97,7 @@ section{
 }
 
 .home-img img:hover{
-    box-shadow: 0 0 25px var(--bg-color);
+    box-shadow: 0 0 25px rgb(255, 255, 255);
 
 }
 
@@ -112,7 +115,7 @@ font-weight: 700;
 }
 
 .About-content p{
-        font-size: 20px;
+        font-size: 15px;
 
 }
 .About-content h3:nth-of-type(2) {
@@ -155,8 +158,10 @@ span{
     flex-direction: row;
 }
 
-.skill h2{
+.heading{
     margin-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .Skill-container{
@@ -195,6 +200,72 @@ font-size: 2.6rem;
 .Skill-box p{
     font-size: 1.6rem;
     margin: 1rem 0;
+}
+
+.skill-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill h2{
+    margin-bottom: 5rem;
+}
+
+.learning-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading2{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.learning-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.learning-container .learning-box{
+    flex :1 1 30rem;
+    background-color: var(--snd-bg-color);
+    padding: 1rem 2rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+
+}
+.learning-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.05);
+}
+
+.learning-box img{
+    width: 20rem;
+    height: 30rem;
+    align-items: center;
+    color: var(--main-color);
+}
+
+    .learning-box h3{
+        font-size: 2.6rem;
+        justify-content: center;
+}
+
+.learning-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.learning-container h2{
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 
