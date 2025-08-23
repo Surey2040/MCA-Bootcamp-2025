@@ -5,15 +5,30 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
-    width: fit-content;
-    height: auto;
-    background-color:rgb(152, 149, 149);
+     width: fit-content;
+    height: 0;
    padding: 0;
    margin: 0;
    overflow-x: hidden;
-    
-    
+}
+   
+   
+.skillsection{
+    background-color:rgb(193, 188, 188);
+    position: relative;
+    top: -165px;
+    padding-top:200px;
+    padding-bottom: 44px;
+
+}
+
+.about{
+    padding-bottom:  47px; ;
+    background-color:rgb(152, 149, 149);
+    position: relative;
+   
 }
 .nav{
     background-color: rgb(83, 82, 82);
@@ -22,15 +37,12 @@ body{
      font-size: 14px;
     align-items: center;
     display:flex;
-    flex: 1 1 300px;
     flex-wrap: wrap;    
     height:50px;
     flex-direction: row;
     justify-content: flex-end ;
     gap: 100px;
-    color:white;
-    position: relative;
-    right:0px;           
+    color:white;           
 }
 a{
     text-decoration: none;
@@ -40,8 +52,8 @@ a{
 }
 h1{
 position: relative;
-bottom: 240px;
-left: 550px;
+bottom: 330px;
+left: 600px;
 font-size: 50px;
 color: white;
   font-optical-sizing: auto;
@@ -54,21 +66,20 @@ color: white;
     color: yellow;
 }
 .text{
-    top: 10px;
     font-size: 70px;
     color: white;
     position: relative;
-    top: -250px;
-    left: 550px;
+    top: -330px;
+    right: -600px;
 
 }
 .Image{
-    width: 300px;
+    width: 400px;
     border-radius: 2900px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
     position: relative;
-    top: 150px;
-    left: 200px;
+    top: 130px;
+    left: 160px;
 
 }
 .Image:hover{
@@ -90,7 +101,7 @@ a:hover{
     flex-direction: row;
     position: relative;
     left: 390px;
-    top: -200px;
+    top: -160px;
 
 }
 
@@ -148,6 +159,7 @@ a:hover{
     padding-bottom: 10px;
     border-radius: 10px;
     background-color: rgb(101, 94, 94);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 .figma:hover{
      box-shadow: 10px 10px 20px;
@@ -157,11 +169,11 @@ a:hover{
 }
 
 .h22{
-    color: yellow;
+    color: white;
     text-align: center;
     font-size: 50px;
     position: relative;
-    top: -240px;
+    top: -200px;
 }
 .h222{
     color: white;
@@ -179,7 +191,7 @@ a:hover{
     flex-direction: row;
     position: relative;
     left: 500px;
-    top: -100px;
+    top: -80px;
     
 }
 
@@ -235,8 +247,8 @@ a:hover{
     gap: 1rem;
        position: relative;
        left: 650px;
-       bottom: 270px;
-
+       bottom: 250px;
+    top: -390px;
 }
 
 .insta{
@@ -301,40 +313,106 @@ p{
     margin-right: 500px;
     position: relative;
     bottom: 230px;
-    left: 50px;
+    top: -300px;
+    left: 115px;
 }
 
-.gmail{
+.contact {
+      max-width: 700px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid black;
+      position: relative;
+      bottom: 150px;
+      background-image: url(/Wave-1.png);
+      
+    }
 
-    width: 55px;
-     position: relative;
-  
-     left: 400px;
-}
+    .th{
+        position: relative;
+        bottom: 170px;
+        padding-top: 250px;
+    background-color: rgb(152, 149, 149);;
+    }
+    .contact:hover{
 
-.wp{
-    width: 55px;
-    position: relative;
-    left: 450px;
-}
+box-shadow: 10px 10px 150px rgb(54, 54, 53);
 
-.mailid{
-    text-align: center;
-    position: relative;
-    left: 410px;
-    bottom: 20px;
-}
+    }
+    .cm {
+      text-align: center;
+      color: white;
+      margin-bottom: 20px;
+      position: relative;
+      bottom: -40px;
+      font-size: 20px;
+      left: -5px;
+    }
 
-.num{
-    display: inline-block;
-    position: relative;
-    bottom: 200px;
-}
+    .contact-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      color: white;
+      position: relative;
+      left: -1px;
+      top: 400px;
+    }
+
+     form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      margin: 10px 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background: #fbff00;
+      color: black;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: rgb(173, 173, 0);
+    }
 
 
-.con{
-    color:yellow;
-    text-align: center;
-    font-size: 20px;
-}
+    .lc{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        bottom: 60px;
+    }
 
+    .f:hover{
+         transform: scale(1.3) translateY(-5px);
+    }
+    .in:hover{
+         transform: scale(1.3) translateY(-5px);
+    }
+    .w:hover{
+         transform: scale(1.3) translateY(-5px);
+    }
+    .t:hover{
+         transform: scale(1.3) translateY(-5px);
+    }
+    .y:hover{
+         transform: scale(1.3) translateY(-5px);
+    }
